@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "playperfect-431512",
+  "private_key_id": "93b07b5ea4b0a77f296c158621bafb49166f2285",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDn6VIdPkifXNxj\na4x5DZOQIqHSs278wxDMa/PJBk/uD2arO0tcjE/x+k//Y1zYbyJXz2nGsVq3Iuye\nU8W27a3xU7NFSo1BMEzeVQQT7a7nUboAYYNrP+QlO66xTAVNxlCT+mvVDmWtmgsP\n82VrbgVvBPIOh8zwQ10iLRcO6OrTjEhXbWtPvekvWlmQWwBrxXGyBHTkesgFD8Dm\noV9sugM0KWhgjSI2dszZSwcuwO+nqyTUMdb7HkTyaOI+HMlWkhVGCKwSAeZpn7qS\nLuwDy2GVkDuPCZ6NXEN+FshJATebK02x4HGHo/ExCqe+ewBoHtTLnuIa9Rbd3nHp\nhh2Ndy8dAgMBAAECggEABMcaRs70g7qlMbPSr4sXj1XJ/ANwAGtrtQJuVyW2+i0S\nt5QKT+xLbgKdqPcc6mU+Zw0MsqgPDzcmz8uNsbXrf6LH+TVO0Vko5EBfy/dOw1Dm\n4kDKtSgaT6gPR8jMp9cI7EYxots1Pg0ujX69XVK6xZhA/QqlhAz8kLUuxJheKiCE\n2q4YgSfy6z7hOdaPbRhavS+ntkd8KBVAcXZWd3Nug9AQ/QqrjBWbmNtWDttE9zhn\nn23rRTvnEqZvGIFuoGKKWuHju/cEPLYe9yyS0EOXmmu1WckpfQmIxDmKaHi3M5Vg\niRELUA+djZCA87teS9HD3QhsO5Xk56Rkx5WUA9+jwQKBgQD96yUN4H5/bSyxl2ra\nD1pFxUwj6aNVdV7XnjuNbaAURQPv/fkAvzAbvxdE2/HLGcauRqBuPhoc9+fmOQYS\n6ev7VjJFJQV5la+DpC1GjfdCp0XgS4ru2cw3icOOgYq/7JhiAu0e2ZM/a+IfVBLL\ndnrqI66kJWlM/3tRj1QX/DvU4QKBgQDpz/5SAqzlgL05nKPw9RffAARF3mUYdC8W\n16/P0xGY3qq00T87xd7A0JWcroQ4Bb+FBq/Vq3HhRunytYMUQD/Tk3PxVZHL515H\nbsX0TdbtSHvjFgS/x7hHygxBlRE3cYmTZpnBxO0nOouhbju1DO6WOYiKTkH4aP73\nRnCq8dalvQKBgQC55idJwps6VcbL+myLW4Qe4rS88jfXwEeAmuNExwbU8DZSxWFB\nL7hcCApUKqcaqDNysliQfb0GimVog0U0IbjYWSISx2j7vCA0w8U2C4gEb4zUCtqb\nxi8iViUrNyJLIz/pOfU6idapLyXtA9OCzKpus1MP8Cfo7H7vlnzd1phDYQKBgHTe\naCqp964HuY2whCmO+M2YfopF7ZZZjKgIS3K/983HjuAur0K7Vupd2Eqm2KQAC4j8\nnKtatON7xLhyjgBzVPP2gj+hG+0lyvQ9pGjG96VHU9VgTiNmOvB3R8UIM8DY2YF6\nCWTXgArZsq2QIfwPaLpiK6OmFkeKg9cpuGtZ0oapAoGALydTYqQjVRXt+6rzhvO4\ngKhhlq/gievKko4q9fPjyRyWB5gKlw5+psGkdLYTSgbVTp+4MJB/q9vSRrQ4cMuy\n1ZUpI/IQoCQfh9P8+HvQqQ39rUXNk+UND7GXwxRsSr7qkSIo0ubb3fA+IgPuKimQ\nSLAXnHNkZBhzP0ukOQqHcxE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dbt-lab@playperfect-431512.iam.gserviceaccount.com",
+  "client_id": "116109832986313950147",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dbt-lab%40playperfect-431512.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
