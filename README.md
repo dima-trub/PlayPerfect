@@ -17,6 +17,18 @@ This script handles the ETL (Extract, Transform, Load) process from Google BigQu
 - **Fetch Data:** Retrieves data from a BigQuery table and returns it as a pandas DataFrame.
 - **Load Data:** Stages the data into a temporary table in PostgreSQL, performs an upsert operation, and then cleans up the temporary table.
 
+# Attribute Service API
+
+## Overview
+The Attribute Service API is a FastAPI application designed to retrieve player attributes from a PostgreSQL database with caching provided by Redis. The service aims to enhance performance by reducing database load through efficient caching strategies.
+
+## Features
+- **FastAPI Framework**: Provides a high-performance, easy-to-use API framework.
+- **PostgreSQL Integration**: Retrieves data from a PostgreSQL database.
+- **Redis Caching**: Implements caching to improve response times and reduce database load.
+- **Logging**: Includes detailed logging for monitoring and debugging.
+- **Error Handling**: Robust error handling for graceful failure and meaningful responses.
+
 
 
 
