@@ -30,6 +30,27 @@ class BigQueryToPostgres:
         # Initialize PostgreSQL connector
         self.postgres_connector = PostgresConnector(connection_url=self.postgres_conn_str)
 
+    def create_table_if_not_exists(self, table_name):
+        create_table_query = f"""
+        CREATE TABLE IF NOT EXISTS {table_name} (
+            player_id VARCHAR PRIMARY KEY,
+            country VARCHAR(255),
+            avg_price_10 NUMERIC,
+            last_weighted_daily_matches_count_10_played_days INTEGER,
+            active_days_since_last_purchase INTEGER,
+            score_perc_50_last_5_days NUMERIC,
+            player_last_seen_time TIMESTAMP,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+        """
+        try:
+            self.postgres_connector.run(create_table_query)
+            logger.info(f"Table '{table_name}' created or already exists.")
+        except Exception as e:
+            logger.error(f"Failed to create table '{table_name}': {e}")
+            raise
+
     def fetch_data_from_bigquery(self):
         query = f"""
         SELECT *
@@ -92,6 +113,7 @@ class BigQueryToPostgres:
 
     def run(self, table_name):
         try:
+            self.create_table_if_not_exists(table_name)
             df = self.fetch_data_from_bigquery()
             self.load_data_to_postgres(df, table_name)
         except Exception as e:
@@ -101,4 +123,3 @@ class BigQueryToPostgres:
 if __name__ == "__main__":
     bq_to_pg = BigQueryToPostgres()
     bq_to_pg.run('user_panel')
-

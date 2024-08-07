@@ -2,7 +2,7 @@ import os
 
 class Config:
     INPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'Data/')
-    serviceAccountCredentialsFilePath = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'playperfect-431512-93b07b5ea4b0.json')
+    serviceAccountCredentialsFilePath = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'playperfect-431512-cb9ed2e92223.json')
     project_id = 'playperfect-431512'
     stg_schema = 'stg'
     dwh_schema = 'dwh'

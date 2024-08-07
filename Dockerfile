@@ -23,4 +23,4 @@ EXPOSE 8000
 ## Command to run the application
 #CMD ["uvicorn", "etl:app", "--host", "0.0.0.0", "--port", "8000"]
 # Run the FastAPI app with Uvicorn and multiple workers
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "4"]
+CMD ["uvicorn", "main:app", "--host", "127.0.0.1", "--port", "8000", "--workers", "4"]
