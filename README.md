@@ -17,31 +17,7 @@ This script handles the ETL (Extract, Transform, Load) process from Google BigQu
 - **Fetch Data:** Retrieves data from a BigQuery table and returns it as a pandas DataFrame.
 - **Load Data:** Stages the data into a temporary table in PostgreSQL, performs an upsert operation, and then cleans up the temporary table.
 
-## Installation
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/dima-trub/PlayPerfect.git
-cd PlayPerfect
 
 
-## Install Dependencies
 
-Create a virtual environment (optional but recommended) and install the required packages:
 
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-pip install -r requirements.txt
-
-## Docker Setup
-
-If you prefer using Docker, make sure Docker and Docker Compose are installed on your machine.
-
-### Build and Run Docker Containers
-
-To build and start the Docker containers, run the following command:
-
-```bash
-docker-compose up --build
